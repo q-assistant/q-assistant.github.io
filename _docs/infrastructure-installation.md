@@ -12,7 +12,7 @@ Requirements:
 Download and unpack the infrastructure:
 
 ```bash
-mkdir ~/.q && cd ~/.q && \
+sudo mkdir /var/q && cd /var/q && \
 wget -c "https://github.com/q-assistant/infrastructure/archive/v0.0.1-alpha0.tar.gz" -O - | tar -xz && \
 mv infrastructure-0.0.1-alpha0 infrastructure
 ```
