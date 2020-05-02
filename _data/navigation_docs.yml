@@ -1,0 +1,32 @@
+- title: Getting Started
+  docs:
+    - infrastructure-installation
+    - infrastructure-setup
+
+- title: Agents
+  docs:
+    - agent-about
+    - agent-installation
+
+- title: Q Controller
+  docs:
+    - controller-settings
+    - controller-identity
+    - controller-speakers
+
+- title: Skills
+  docs:
+    - skill-about
+    - skill-installation
+    - skill-development
+
+- title: Core Services
+  docs:
+    - service-events
+    - service-identity
+    - service-dialog
+    - service-expression
+
+- title: Help
+  docs:
+    - support

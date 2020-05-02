@@ -1,0 +1,16 @@
+# Boxes include navigation
+
+- title: Getting Started
+  desc: Get started fast with installation and setup instructions
+  icon: cog
+  doc: infrastructure-installation
+
+- title: Skills
+  desc: Lean about skills, usage and how to develop them
+  icon: server
+  doc: skill-about
+
+- title: Settings
+  desc: Get help or tailor the theme to your specific requirements
+  icon: settings
+  doc: controller-settings
