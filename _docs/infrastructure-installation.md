@@ -13,11 +13,12 @@ Download and unpack the infrastructure:
 
 ```bash
 sudo mkdir /var/q && cd /var/q && \
-wget -c "https://github.com/q-assistant/infrastructure/archive/v0.0.1-alpha0.tar.gz" -O - | tar -xz && \
-mv infrastructure-0.0.1-alpha0 infrastructure
+wget -c "https://github.com/q-assistant/infrastructure/archive/v0.0.1-alpha0.tar.gz" -O - | sudo tar -xz && \
+sudo mv infrastructure-0.0.1-alpha0 infrastructure && cd infrastructure && \
+sudo cp graylog.env.dist graylog.env
 ```
 
-Run the following command while you are in ```~/.q/infrastructure``` to start:
+Run the following command while you are in ```/var/q/infrastructure``` to start:
 ```bash
 docker-compose up
 // or detached
