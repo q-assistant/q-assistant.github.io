@@ -13,6 +13,7 @@
     - controller-settings
     - controller-identity
     - controller-speakers
+    - controller-voice-tuning
 
 - title: Skills
   docs:
