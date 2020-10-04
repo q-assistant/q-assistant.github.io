@@ -5,6 +5,6 @@ tags: [core, service]
 author: edwin
 ---
 
-### Import
+This service is responsible for transforming incoming input, either sound or text to an intent.  
 
-### Export
+It also hooks into the Identity service to see if it can resolve the identity based on their voice.
